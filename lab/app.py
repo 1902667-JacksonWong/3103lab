@@ -5,9 +5,7 @@ import json
 import time
 from datetime import datetime
 
-# for sql db
-import pymysql as sql
-# import datetime
+
 
 app = Flask(__name__)
 
