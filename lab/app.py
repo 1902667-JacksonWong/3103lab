@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     
-
+	print('he')
     if request.method == "POST":
         
         return f"Request Recieved"
