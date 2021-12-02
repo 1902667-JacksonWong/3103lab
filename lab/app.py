@@ -14,9 +14,8 @@ app = Flask(__name__)
 def index():
     
 	print('he')
-    if request.method == "POST":
-        
-        return f"Request Recieved"
+    # if request.method == "POST":
+    #     return f"Request Recieved"
 
 
 
