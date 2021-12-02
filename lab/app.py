@@ -16,7 +16,7 @@ def index():
 	print('he')
     # if request.method == "POST":
     #     return f"Request Recieved"
-
+    return render_template('index.html', data=context)
 
 
 
