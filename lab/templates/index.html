@@ -3,29 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <body>
-    <div class="w3-container">
+   
       <h1>Locations of Safe Distancing Ambassadors</h1>
-      <div style="display: flex">
-        {%for result in data.results%}
-        <div class="w3-card-4" style="width: 250px; margin: 10px">
-          <header class="w3-container w3-blue">
-            <h1>{{result.1}}</h1>
-          </header>
-
-          <div class="w3-container">
-            <p>{{result.5}}</p>
-          </div>
-
-          <footer class="w3-container w3-blue">
-            <h5>{{result.4}}</h5>
-          </footer>
-        </div>
-        {%endfor%}
-      </div>
-    </div>
+     
   </body>
 </html>
-<script>
-  // timed redierct
-  setTimeout(function () {location.reload();}, 3000);
-</script>
