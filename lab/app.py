@@ -13,9 +13,10 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
     
-	print('he')
-    # if request.method == "POST":
+	
+    if request.method == "GET":
     #     return f"Request Recieved"
+    print('hello')
     return render_template('index.html', data=context)
 
 
