@@ -15,7 +15,7 @@ def index():
     if request.method == "GET":
     #     return f"Request Recieved"
         print('hello')
-    return render_template('index.html', data=context)
+    return render_template('index.html')
 
 
 
